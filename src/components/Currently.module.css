@@ -12,31 +12,22 @@
   height: 30rem;
 }
 
-.aboutMe {
+.currently {
   font-family: 'SF-Pro-Light';
-  /* padding-right: 2rem !important; */
+  padding-right: 4.5rem !important;
 }
 
-.aboutMeEmphasis {
+.currentlyEmphasis {
   font-family: 'SF-Pro-Bold';
   font-weight: 700;
   color: #0c5997;
 }
 
-html[data-theme='dark'] .aboutMeEmphasis {
+html[data-theme='dark'] .currentlyEmphasis {
   font-family: 'SF-Pro-Regular';
   color: #ffdcdc;
 }
 
-.profilePictureContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.profilePicture {
-  height: 20rem;
-  width: 20rem;
-  border-radius: 50%; 
-  object-fit: cover;
+.currentlyMap {
+  padding: 1rem 0;
 }

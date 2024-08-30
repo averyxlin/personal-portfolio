@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import styles from './AboutMe.module.css';
 import profilePicture from '../../static/img/pfp.png'
 
-export default function HomepageFeatures() {
+export default function AboutMe() {
   return (
     <section className={styles.features}>
       <div className="container">
@@ -17,13 +17,13 @@ export default function HomepageFeatures() {
 
             <p>today, i broadened my experiences, and have worked with everything from react web applications, to golang rest api's, to python + llm-powered chatbots. i'm excited to continue <span className={styles.aboutMeEmphasis}>building tools that make users' lives easier</span> — whether that's helping them save time, space, or effort in their daily lives :)</p>
 
-            <p>outside of work, you can find me:</p>
+            {/* <p>outside ofwork, you can find me:</p>
             <ul>
               <li>finishing up my computer science degree at uwaterloo</li>
               <li>lifting heavy circles</li>
               <li>running it down summoner's rift</li>
               <li>learning how to poke pretty pictures into people's skin</li>
-            </ul>
+            </ul> */}
           </div>
           <div className={`col col--4 ${styles.profilePictureContainer}`}>
             <img src={profilePicture} alt="profile picture" className={styles.profilePicture} />

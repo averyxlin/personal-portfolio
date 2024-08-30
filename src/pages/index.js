@@ -1,10 +1,9 @@
 import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import HomepageFeatures from '../components/AboutMe';
+import AboutMe from '../components/AboutMe';
+import Currently from '../components/Currently';
 
 function HomepageHeader() {
   return (
@@ -26,7 +25,8 @@ export default function Home() {
       description="This is a description">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <AboutMe />
+        <Currently />
       </main>
     </Layout>
   );

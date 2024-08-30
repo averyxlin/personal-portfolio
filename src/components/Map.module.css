@@ -1,0 +1,8 @@
+.currentLocationMap {
+    filter: grayscale(0.6);
+    padding-top: 4rem;
+}
+
+html[data-theme='dark'] .currentLocationMap {
+    filter: grayscale(0.6) invert(0.8);
+}

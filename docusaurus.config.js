@@ -1,105 +1,127 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+// @ts-check
+// `@type` JSDoc annotations allow editor autocompletion and type checking
+// (when paired with `@ts-check`).
+// There are various equivalent ways to declare your Docusaurus config.
+// See: https://docusaurus.io/docs/api/docusaurus-config
 
-// With JSDoc @type annotations, IDEs can provide config autocompletion
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
-(module.exports = {
-  title: "avery lin",
-  tagline: 'software developer portfolio',
+import {themes as prismThemes} from 'prism-react-renderer';
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
+  title: 'avery lin',
+  tagline: 'personal portfolio',
+  favicon: 'img/logo.png',
   url: 'https://averyxlin.me',
   baseUrl: '/',
+  organizationName: 'averyxlin', 
+  projectName: 'portfolio', 
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'averyxlin', // Usually your GitHub org/user name.
-  projectName: 'portfolio', // Usually your repo name.
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
 
   presets: [
     [
-      '@docusaurus/preset-classic',
+      'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: './sidebars.js',
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
+          feedOptions: {
+            type: ['rss', 'atom'],
+            xslt: true,
+          },
           // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // Useful options to enforce blogging best practices
+          onInlineTags: 'warn',
+          onInlineAuthors: 'warn',
+          onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: './src/css/custom.css',
         },
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
         title: 'avery lin',
         logo: {
-          alt: 'Lin Logo',
-          src: 'img/logodark.png',
-          srcDark: 'img/logo.png',
+          alt: 'lin',
+          src: 'img/logo.png',
+          srcDark: 'img/logodark.png'
         },
         items: [
-          {to: '/blog', label: 'blog', position: 'left'},
           {to: '/projects', label: 'projects', position: 'left'},
+          {to: '/blog', label: 'blog', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'notes',
+          },
+         
         ],
       },
       footer: {
-        style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'discover',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'about me',
+                to: '/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'projects',
+                to: '/projects',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
+                label: 'blog',
                 to: '/blog',
               },
+            ],
+          },
+          {
+            title: 'connect',
+            items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'email',
+                href: 'mailto:xinyan.lin@uwaterloo.ca',
+              },
+              {
+                label: 'linkedin',
+                href: 'https://github.com/averyxlin',
+              },
+              {
+                label: 'github',
+                href: 'https://github.com/averyxlin',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
       },
     }),
-});
+};
+
+export default config;
