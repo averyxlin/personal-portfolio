@@ -1,0 +1,46 @@
+
+@font-face {
+  font-family: 'SF-Pro-Light';
+  src: url('../../static/fonts/sf-pro/sf-pro-text-light.woff') format('woff2');
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 0 4rem 4rem 4rem;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.aboutMe {
+  font-family: 'SF-Pro-Light';
+  padding-right: 4.5rem !important;
+}
+
+.aboutMeEmphasis {
+  font-family: 'SF-Pro-Bold';
+  font-weight: 700;
+  color: #0c5997;
+}
+
+html[data-theme='dark'] .aboutMeEmphasis {
+  font-family: 'SF-Pro-Regular';
+  color: #ffdcdc;
+}
+
+.profilePictureContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profilePicture {
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%; 
+  object-fit: cover;
+}
