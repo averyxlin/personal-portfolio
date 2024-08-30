@@ -12,7 +12,7 @@ function HomepageHeader() {
         <h1 className="hero__title heroBanner-title">
           hi, i'm <span className={styles.nameTitle}>avery lin</span>.
         </h1>
-        <p className={`hero__subtitle ${styles.subtitle}`}>full-stack developer software developer + computer science student @ uwaterloo</p>
+        <p className={`hero__subtitle ${styles.subtitle}`}>full-stack developer + computer science @ uwaterloo</p>
       </div>
     </header>
   );
