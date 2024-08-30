@@ -116,6 +116,7 @@ const config = {
             ],
           },
         ],
+        copyright: `copyright © ${new Date().getFullYear()} avery lin`
       },
       prism: {
         theme: prismThemes.github,

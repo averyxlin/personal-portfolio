@@ -16,19 +16,10 @@ export default function AboutMe() {
             <p>however, my interests shifted after working on api's, specifically for internal tools for fellow developers. after engaging with users + hearing how my efforts enhanced their efficiency, my eyes were opened to the <span className={styles.aboutMeEmphasis}>impact of backend development</span> to end users as well.</p>
 
             <p>today, i broadened my experiences, and have worked with everything from react web applications, to golang rest api's, to python + llm-powered chatbots. i'm excited to continue <span className={styles.aboutMeEmphasis}>building tools that make users' lives easier</span> — whether that's helping them save time, space, or effort in their daily lives :)</p>
-
-            {/* <p>outside ofwork, you can find me:</p>
-            <ul>
-              <li>finishing up my computer science degree at uwaterloo</li>
-              <li>lifting heavy circles</li>
-              <li>running it down summoner's rift</li>
-              <li>learning how to poke pretty pictures into people's skin</li>
-            </ul> */}
           </div>
           <div className={`col col--4 ${styles.profilePictureContainer}`}>
             <img src={profilePicture} alt="profile picture" className={styles.profilePicture} />
           </div>
-
         </div>
       </div>
     </section>
