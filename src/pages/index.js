@@ -4,7 +4,6 @@ import Layout from '@theme/Layout';
 import styles from './index.module.css';
 import AboutMe from '../components/AboutMe';
 import Currently from '../components/Currently';
-import Experience from '../components/Experience';
 
 function HomepageHeader() {
 return (

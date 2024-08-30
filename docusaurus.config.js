@@ -60,6 +60,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        respectPrefersColorScheme: true,
+      },
       navbar: {
         title: 'avery lin',
         logo: {
@@ -68,8 +72,8 @@ const config = {
           srcDark: 'img/logodark.png'
         },
         items: [
-          {to: '/experience', label: 'experience', position: 'left'},
-          {to: '/projects', label: 'projects', position: 'left'},
+          {to: '/resume', label: 'experience', position: 'left'},
+          // {to: '/projects', label: 'projects', position: 'left'},
           {to: '/blog', label: 'blog', position: 'left'},
           {
             type: 'docSidebar',

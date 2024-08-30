@@ -21,21 +21,54 @@
     color: #0c5997;
   }
   
-  html[data-theme='dark'] .aboutMeEmphasis {
+  .experienceTitle {
+    padding: 8rem 0;
     font-family: 'SF-Pro-Regular';
-    color: #ffdcdc;
   }
-  
-  .profilePictureContainer {
+
+  .resumeItem {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 1rem;
+    padding-right: 4rem;
+    gap: 3rem;
+    width: 100%;
+  }
+
+  .resumeContent {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-top: 1rem;
+  }
+
+  .logoButton {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 8px;
+    border: 0px;
   }
   
-  .profilePicture {
-    height: 20rem;
-    width: 20rem;
-    border-radius: 50%; 
-    object-fit: cover;
+
+  .intuitLogoButton {
+    background-color: rgba(35, 108, 255, 0.4);
+    transition: background-color 0.2s ease-in-out;
   }
   
+  .intuitLogoButton:hover,
+  .intuitLogoButton:focus {
+    background-color: rgba(35, 108, 255, 0.5); 
+  }
+  
+  .lineWrapper {
+    display: flex;
+    align-items: baseline;
+    flex-grow: 1; 
+  }
+
+  .middle {
+    border-bottom: 1px dotted #aaa;
+    flex-grow: 1;
+    margin: 0 12px;
+  }

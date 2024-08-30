@@ -34,7 +34,7 @@ export default function AboutMe() {
               </div>
               <div class={styles.middle}></div>
               <div>
-                <a href="mailto:xinyan.lin@uwaterloo.ca">xinyan.lin@uwaterloo.ca</a>
+                <a href="mailto:xinyan.lin@uwaterloo.ca" target="_blank" rel="noopener noreferrer">xinyan.lin@uwaterloo.ca</a>
               </div>
             </div>
             <div className={styles.lineWrapper}>
@@ -43,7 +43,7 @@ export default function AboutMe() {
               </div>
               <div class={styles.middle}></div>
               <div>
-                <a href="https://www.linkedin.com/in/averyxlin/">linkedin.com/in/averyxlin</a>
+                <a href="https://www.linkedin.com/in/averyxlin/" target="_blank" rel="noopener noreferrer">linkedin.com/in/averyxlin</a>
               </div>
             </div>
             <div className={styles.lineWrapper}>
@@ -52,7 +52,7 @@ export default function AboutMe() {
               </div>
               <div class={styles.middle}></div>
               <div>
-                <a href="https://github.com/averyxlin">github.com/averyxlin</a>
+                <a href="https://github.com/averyxlin" target="_blank" rel="noopener noreferrer">github.com/averyxlin</a>
               </div>
             </div>
           </div>
