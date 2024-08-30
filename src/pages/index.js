@@ -4,9 +4,10 @@ import Layout from '@theme/Layout';
 import styles from './index.module.css';
 import AboutMe from '../components/AboutMe';
 import Currently from '../components/Currently';
+import Experience from '../components/Experience';
 
 function HomepageHeader() {
-  return (
+return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title heroBanner-title">

@@ -68,6 +68,7 @@ const config = {
           srcDark: 'img/logodark.png'
         },
         items: [
+          {to: '/experience', label: 'experience', position: 'left'},
           {to: '/projects', label: 'projects', position: 'left'},
           {to: '/blog', label: 'blog', position: 'left'},
           {

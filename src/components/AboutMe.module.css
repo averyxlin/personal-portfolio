@@ -21,6 +21,11 @@
   color: #0c5997;
 }
 
+.contactMe {
+  font-family: 'SF-Pro-Light';
+  padding-right: 4.5rem;
+}
+
 html[data-theme='dark'] .aboutMeEmphasis {
   font-family: 'SF-Pro-Regular';
   color: #ffdcdc;
@@ -37,4 +42,15 @@ html[data-theme='dark'] .aboutMeEmphasis {
   width: 20rem;
   border-radius: 50%; 
   object-fit: cover;
+}
+
+.lineWrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.middle {
+  border-bottom: 1px dotted #aaa;
+  flex-grow: 1;
+  margin: 0 12px;
 }
