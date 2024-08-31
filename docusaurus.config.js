@@ -16,7 +16,7 @@ const config = {
   organizationName: 'averyxlin', 
   projectName: 'portfolio', 
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   presets: [
@@ -68,7 +68,7 @@ const config = {
         },
         items: [
           {to: '/resume', label: 'experience', position: 'left'},
-          // {to: '/projects', label: 'projects', position: 'left'},
+          {to: '/projects', label: 'projects', position: 'left'},
           {to: '/blog', label: 'blog', position: 'left'},
           {
             type: 'docSidebar',

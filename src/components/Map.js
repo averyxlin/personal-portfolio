@@ -1,11 +1,13 @@
-import React from 'react'
-import { MapContainer, TileLayer, Marker } from "react-leaflet";
+import React, { useEffect, useRef } from 'react'
+import { MapContainer, TileLayer } from './MapComponents'
 import 'leaflet/dist/leaflet.css';
 import styles from './Map.module.css';
 
 export default function Map() {
+  const mapRef = useRef(null);
   return (
     <MapContainer 
+      ref={mapRef}
       className={styles.currentLocationMap}
       style={{ 
         height: '25rem', 
