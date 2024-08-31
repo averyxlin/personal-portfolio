@@ -69,7 +69,7 @@ const config = {
         items: [
           {to: '/resume', label: 'experience', position: 'left'},
           // {to: '/projects', label: 'projects', position: 'left'},
-          // {to: '/blog', label: 'blog', position: 'left'},
+          // {to: '/blog', label: 'writing', position: 'left'},
           // {
           //   type: 'docSidebar',
           //   sidebarId: 'tutorialSidebar',
@@ -88,13 +88,17 @@ const config = {
                 to: '/',
               },
               {
-                label: 'projects',
-                to: '/projects',
-              },
-              {
-                label: 'blog',
-                to: '/blog',
-              },
+                label: 'experience',
+                to: '/resume',
+              }
+              // {
+              //   label: 'projects',
+              //   to: '/projects',
+              // },
+              // {
+              //   label: 'blog',
+              //   to: '/blog',
+              // },
             ],
           },
           {
