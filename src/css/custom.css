@@ -91,4 +91,18 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .footer__copyright {
   text-align: left;
 }
+@media (max-width: 996px) {
+  .footer__col {
+    padding: 0 2rem;
+  }
 
+  .footer__copyright {
+    padding: 0 1rem 1rem;
+  }
+}
+
+@media (max-width: 996px) {
+  .footer {
+      --ifm-footer-padding-horizontal: var(--ifm-spacing-horizontal);
+  }
+}

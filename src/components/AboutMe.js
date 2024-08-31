@@ -30,7 +30,7 @@ export default function AboutMe() {
             <p>i love meeting new people — please never hesitate to reach out, whether it's to work on something exciting together or simply grabbing coffee + going on a walk.</p>
             <div className={styles.lineWrapper}>
               <div>
-                <h4><FontAwesomeIcon icon={faEnvelope} /> email</h4>
+                <h4><FontAwesomeIcon icon={faEnvelope} /> <span className={styles.hideOnSmallScreens}>email</span></h4>
               </div>
               <div class={styles.middle}></div>
               <div>
@@ -39,7 +39,7 @@ export default function AboutMe() {
             </div>
             <div className={styles.lineWrapper}>
               <div>
-                <h4><FontAwesomeIcon icon={faLinkedin} /> linkedin</h4>
+                <h4><FontAwesomeIcon icon={faLinkedin} /> <span className={styles.hideOnSmallScreens}>linkedin</span></h4>
               </div>
               <div class={styles.middle}></div>
               <div>
@@ -48,7 +48,7 @@ export default function AboutMe() {
             </div>
             <div className={styles.lineWrapper}>
               <div>
-                <h4><FontAwesomeIcon icon={faSquareGithub} /> github</h4>
+                <h4><FontAwesomeIcon icon={faSquareGithub} /> <span className={styles.hideOnSmallScreens}>github</span></h4>
               </div>
               <div class={styles.middle}></div>
               <div>

@@ -10,6 +10,12 @@
     padding: 0 4rem 4rem 4rem;
     width: 100%;
   }
+
+  @media (max-width: 966px) {
+    .features {
+      padding: 0 2rem 2rem 2rem;
+    }
+  }
   
   .aboutMe {
     font-family: 'SF-Pro-Light';

@@ -11,9 +11,21 @@
   width: 100%;
 }
 
+@media (max-width: 966px) {
+  .features {
+    padding: 0 2rem 2rem 2rem;
+  }
+}
+
+@media (max-width: 996px) {
+  .currently {
+    padding-right: 0 !important;
+  }
+} 
+
 .currently {
   font-family: 'SF-Pro-Light';
-  padding-right: 4.5rem !important;
+  padding-right: 4.5rem;
 }
 
 .currentlyEmphasis {

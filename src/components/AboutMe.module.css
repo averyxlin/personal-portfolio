@@ -11,6 +11,28 @@
   width: 100%;
 }
 
+@media (max-width: 500px) {
+  .hideOnSmallScreens {
+    display: none;
+  }
+}
+
+@media (max-width: 966px) {
+  .features {
+    padding: 0 2rem 2rem 2rem;
+  }
+}
+
+@media (max-width: 996px) {
+  
+  .profilePictureContainer {
+    padding: 1rem 2rem 2rem 2rem;
+  }
+  .contactMe {
+    padding-right: 0 !important;
+  }
+} 
+
 .aboutMe {
   font-family: 'SF-Pro-Light';
 }
