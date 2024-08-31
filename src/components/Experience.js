@@ -27,7 +27,7 @@ export default function Experience() {
             <div className={`${styles.lineWrapper}`}>
               <h3 className={styles.resumeTitle}>intuit</h3>
               <div class={styles.middle}></div>
-              <div>may 2024 - present</div>
+              <div className={styles.date}>may 2024 - present</div>
             </div>
             <p>developer success team. incoming @ turbotax data experience team in september.</p>
           </div>
@@ -43,7 +43,7 @@ export default function Experience() {
             <div className={`${styles.lineWrapper}`}>
               <h3 className={styles.resumeTitle}>stealth startup</h3>
               <div class={styles.middle}></div>
-              <div>sep 2023 - dec 2023</div>
+              <div className={styles.date}>sep 2023 - dec 2023</div>
             </div>
             <p>was the only frontend developer in a scrappy team of three - built the landing page + design system, among other cool things :)</p>
           </div>
@@ -59,7 +59,7 @@ export default function Experience() {
             <div className={`${styles.lineWrapper}`}>
               <h3 className={styles.resumeTitle}>flybits</h3>
               <div class={styles.middle}></div>
-              <div>jan 2023 - dec 2023</div>
+              <div className={styles.date}>jan 2023 - dec 2023</div>
             </div>
             <p>refactored the design system to be a11y compliant + built a location management platform with google maps</p>
           </div>
@@ -75,7 +75,7 @@ export default function Experience() {
             <div className={`${styles.lineWrapper}`}>
               <h3 className={styles.resumeTitle}>letus</h3>
               <div class={styles.middle}></div>
-              <div>may 2022 - aug 2022</div>
+              <div className={styles.date}>may 2022 - aug 2022</div>
             </div>
             <p>integrated i18n into two rent payment + tenant management platforms, based in react + vue respectively</p>
           </div>
@@ -91,7 +91,7 @@ export default function Experience() {
             <div className={`${styles.lineWrapper}`}>
               <h3 className={styles.resumeTitle}>teranet</h3>
               <div class={styles.middle}></div>
-              <div>sept 2021 - dec 2021</div>
+              <div className={styles.date}>sept 2021 - dec 2021</div>
             </div>
             <p>tenant + property management platforms</p>
           </div>
@@ -107,7 +107,7 @@ export default function Experience() {
             <div className={`${styles.lineWrapper}`}>
               <h3 className={styles.resumeTitle}>google: computer science summer institute</h3>
               <div class={styles.middle}></div>
-              <div>july 2020</div>
+              <div className={styles.date}>july 2020</div>
             </div>
             <p>learned the fundamentals of html, css, javascript, and web development</p>
           </div>
@@ -125,7 +125,7 @@ export default function Experience() {
             <div className={`${styles.lineWrapper}`}>
               <h3 className={styles.resumeTitle}>university of waterloo</h3>
               <div class={styles.middle}></div>
-              <div>sep 2020 - expected apr 2025</div>
+              <div className={styles.date}>sep 2020 - expected apr 2025</div>
             </div>
             <p>bcs + human-computer interaction specialization</p>
           </div>

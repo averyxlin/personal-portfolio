@@ -10,6 +10,16 @@
   padding: 4rem;
   width: 100%;
 }
+@media (max-width: 530px) {
+  .lineWrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 1rem;
+  }
+  .middle {
+    display: none;
+  }
+}
 
 @media (max-width: 966px) {
   .features {
