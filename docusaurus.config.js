@@ -68,15 +68,14 @@ const config = {
         },
         items: [
           {to: '/resume', label: 'experience', position: 'left'},
-          {to: '/projects', label: 'projects', position: 'left'},
-          {to: '/blog', label: 'blog', position: 'left'},
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'notes',
-          },
-         
+          // {to: '/projects', label: 'projects', position: 'left'},
+          // {to: '/blog', label: 'blog', position: 'left'},
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'notes',
+          // },
         ],
       },
       footer: {

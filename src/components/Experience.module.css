@@ -22,7 +22,7 @@
   }
   
   .experienceTitle {
-    padding: 8rem 0;
+    padding: 8rem 0 3rem;
     font-family: 'SF-Pro-Regular';
   }
 
@@ -30,7 +30,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 1rem;
+    padding: 1rem;
     padding-right: 4rem;
     gap: 3rem;
     width: 100%;
@@ -43,6 +43,10 @@
     padding-top: 1rem;
   }
 
+  p {
+    margin-bottom: 0.7rem !important;
+  }
+
   .logoButton {
     height: 6rem;
     width: 6rem;
@@ -50,17 +54,157 @@
     border: 0px;
   }
   
-
   .intuitLogoButton {
-    background-color: rgba(35, 108, 255, 0.4);
+    background-color: rgba(35, 108, 255, 0.5);
     transition: background-color 0.2s ease-in-out;
   }
   
   .intuitLogoButton:hover,
   .intuitLogoButton:focus {
-    background-color: rgba(35, 108, 255, 0.5); 
+    background-color: rgba(35, 108, 255, 0.55); 
+    border: none; 
+  }
+
+  html[data-theme='dark'] .intuitLogoButton {
+    background-color: rgba(35, 108, 255, 0.6);
+    transition: background-color 0.2s ease-in-out;
   }
   
+  html[data-theme='dark'] .intuitLogoButton:hover,
+  html[data-theme='dark'] .intuitLogoButton:focus {
+    background-color: rgba(35, 108, 255, 0.65); 
+    border: none; 
+  }
+
+  .stealthLogoButton {
+    background-color: rgba(132, 136, 132, 0.4);
+  }
+
+  .stealthLogoButton:hover,
+  .stealthLogoButton:focus {
+    background-color: rgba(132, 136, 132, 0.45);
+  }
+
+  html[data-theme='dark'] .stealthLogoButton {
+    background-color: rgba(229, 228, 226, 0.5);
+  }
+
+  html[data-theme='dark'] .stealthLogoButton:hover,
+  html[data-theme='dark'] .stealthLogoButton:focus {
+    background-color: rgba(229, 228, 226, 0.55);
+  }
+
+  .flybitsLogoButton {
+    background-color: rgba(137, 207, 240,0.4);
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .flybitsLogoButton:hover,
+  .flybitsLogoButton:focus {
+    background-color: rgba(137, 207, 240,0.45);
+    border: none; 
+  }
+
+  html[data-theme='dark'] .flybitsLogoButton {
+    background-color: rgba(135, 206, 235, 0.7);
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  html[data-theme='dark'] .flybitsLogoButton:hover,
+  html[data-theme='dark'] .flybitsLogoButton:focus {
+    background-color: rgba(135, 206, 235, 0.75);
+    border: none; 
+  }
+
+  .letusLogoButton {
+    background-color: rgba(67,28,103,0.4);
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .letusLogoButton:hover,
+  .letusLogoButton:focus {
+    background-color: rgba(67,28,103,0.45);
+    border: none; 
+  }
+
+  html[data-theme='dark'] .letusLogoButton {
+    background-color: rgba(134,106,164, 0.6);
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  html[data-theme='dark'] .letusLogoButton:hover,
+  html[data-theme='dark'] .letusLogoButton:focus {
+    background-color: rgba(134,106,164, 0.65);
+    border: none; 
+  }
+
+  .teranetLogoButton {
+    background-color: rgba(141,199,63,0.6);
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .teranetLogoButton:hover,
+  .teranetLogoButton:focus {
+    background-color: rgba(141,199,63,0.65);
+    border: none; 
+  }
+
+  html[data-theme='dark'] .teranetLogoButton {
+    background-color: rgba(141,199,63, 0.7);
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  html[data-theme='dark'] .teranetLogoButton:hover,
+  html[data-theme='dark'] .teranetLogoButton:focus {
+    background-color: rgba(141,199,63, 0.75);
+    border: none; 
+  }
+
+  .googleLogoButton {
+    background-color: rgba(234,66,53,0.3);
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .googleLogoButton:hover,
+  .googleLogoButton:focus {
+    background-color: rgba(234,66,53,0.35);
+    border: none; 
+  }
+
+  html[data-theme='dark'] .googleLogoButton {
+    background-color: rgba(231,137,129, 0.8);
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  html[data-theme='dark'] .googleLogoButton:hover,
+  html[data-theme='dark'] .googleLogoButton:focus {
+    background-color: rgba(231,137,129, 0.85);
+    border: none; 
+  }
+
+  .uwLogoButton {
+    padding: 0.75rem !important;
+    background-color: rgba(255,214,78,0.45);
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .uwLogoButton:hover,
+  .uwLogoButton:focus {
+    background-color: rgba(255,214,78,0.5);
+    border: none; 
+  }
+
+  html[data-theme='dark'] .uwLogoButton {
+    background-color: rgba(255,214,78, 0.8);
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  html[data-theme='dark'] .uwLogoButton:hover,
+  html[data-theme='dark'] .uwLogoButton:focus {
+    background-color: rgba(255,214,78, 0.85);
+    border: none; 
+  }
+
   .lineWrapper {
     display: flex;
     align-items: baseline;
@@ -71,4 +215,19 @@
     border-bottom: 1px dotted #aaa;
     flex-grow: 1;
     margin: 0 12px;
+  }
+
+  html[data-theme='dark'] .middle {
+    border-bottom: 1px dotted #424141;
+  }
+
+  .divider {
+    width: 95%;
+    height: 0.2px; 
+    background-color: #aaa;
+    margin: 1rem 0;
+  }
+
+  html[data-theme='dark'] .divider {
+    background-color: #424141;
   }
