@@ -1,9 +1,5 @@
 # averyxlin.com
 
-## table of contents
-1. description
-2. credits
-
 ## description
 this is my personal website, which i built primarily with react + [docusaurus](https://docusaurus.io/), deployed using [vercel](https://vercel.com/). i chose to use docusaurus because i want to eventually publish my writings onto this site, and docusaurus makes it really easy to host a blog. plus it helped me configure light/dark mode switching using [infima](https://infima.dev/) themes which i liked.
 
