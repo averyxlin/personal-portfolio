@@ -14,10 +14,10 @@ export default function Currently() {
           <div className={`col ${styles.currently}`}>
             <h1>currently</h1>
             <p>
-              finishing up my cs degree @ <a href="https://uwaterloo.ca/future-students/programs/computer-science" target="_blank" rel="noopener noreferrer">uwaterloo</a>, building llm-powered developer assistants + developer tools @ <a href="https://www.intuit.com" target="_blank" rel="noopener noreferrer">intuit</a>, looking for 2025 new grad roles.
+              finishing up my cs degree @ <a href="https://uwaterloo.ca/future-students/programs/computer-science" target="_blank" rel="noopener noreferrer">uwaterloo</a>, automating data entry into turbotax @ <a href="https://www.intuit.com" target="_blank" rel="noopener noreferrer">intuit</a>, looking for 2025 new grad roles.
             </p>
             <p>
-              when i'm not breaking (and fixing!) code, you can find me lifting heavy circles, donkey rolling in <a href="https://lolchess.gg/profile/na/stargirl-die4u/">teamfight tactics</a>, or exploring toronto while the warm weather lasts.
+              outside of shipping code, you can find me lifting heavy circles, playing <a href="https://lolchess.gg/profile/na/stargirl-die4u/">teamfight tactics</a>, or exploring toronto while the warm weather lasts.
             </p>
             <div className={styles.currentlyMap}>
               <Map/>

@@ -29,7 +29,8 @@ export default function Experience() {
               <div class={styles.middle}></div>
               <div className={styles.date}>may 2024 - present</div>
             </div>
-            <p>developer success team. incoming @ turbotax data experience team in september.</p>
+            <p><b>may - aug:</b> developer success team. worked on developer tools + intuit assist, intuit's llm-powered developer assistant</p>
+            <p><b>sept - dec:</b> turbotax data experience team. working on import & upload capabilities for tax documents + automating data entry</p>
           </div>
         </div>
         {/* stealth */}
@@ -109,7 +110,7 @@ export default function Experience() {
               <div class={styles.middle}></div>
               <div className={styles.date}>july 2020</div>
             </div>
-            <p>learned the fundamentals of html, css, javascript, and web development</p>
+            <p>learned the fundamentals of html, css, javascript, & web development</p>
           </div>
         </div>
         {/* google cssi */}
