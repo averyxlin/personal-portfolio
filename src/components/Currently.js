@@ -17,7 +17,7 @@ export default function Currently() {
               finishing up my cs degree @ <a href="https://uwaterloo.ca/future-students/programs/computer-science" target="_blank" rel="noopener noreferrer">uwaterloo</a>, automating data entry into turbotax @ <a href="https://www.intuit.com" target="_blank" rel="noopener noreferrer">intuit</a>, looking for 2025 new grad roles.
             </p>
             <p>
-              outside of shipping code, you can find me lifting heavy circles, playing <a href="https://lolchess.gg/profile/na/stargirl-die4u/">teamfight tactics</a>, or exploring toronto while the warm weather lasts.
+              outside of shipping code, you can find me lifting heavy circles, playing <a href="https://lolchess.gg/profile/na/stargirl-die4u/">teamfight tactics</a>, or cafe hopping in toronto.
             </p>
             <div className={styles.currentlyMap}>
               <Map/>
@@ -55,7 +55,7 @@ export default function Currently() {
               </div>
               <div class={styles.middle}></div>
               <div>
-                <FontAwesomeIcon icon={faSpotify} style={{paddingRight: '8px'}}/><a href="https://open.spotify.com/track/1Sym1HsTqsa2pYKhYL1j15?si=76c9e70326e54a32" target="_blank" rel="noopener noreferrer">me gustas natural — eladio carrión + rels b</a>
+                <FontAwesomeIcon icon={faSpotify} style={{paddingRight: '8px'}}/><a href="https://open.spotify.com/track/1whAXVGN8AdfrnoXNIXfJf?si=3cb229fc21c34c49&nd=1&dlsi=b86e1e09143c4e01" target="_blank" rel="noopener noreferrer">truth or dare - tyla</a>
               </div>
             </div>
           </div>
