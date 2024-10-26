@@ -55,7 +55,7 @@ export default function Currently() {
               </div>
               <div class={styles.middle}></div>
               <div>
-                <FontAwesomeIcon icon={faSpotify} style={{paddingRight: '8px'}}/><a href="https://open.spotify.com/track/1whAXVGN8AdfrnoXNIXfJf?si=3cb229fc21c34c49&nd=1&dlsi=b86e1e09143c4e01" target="_blank" rel="noopener noreferrer">truth or dare - tyla</a>
+                <FontAwesomeIcon icon={faSpotify} style={{paddingRight: '8px'}}/><a href="https://open.spotify.com/track/1Es7AUAhQvapIcoh3qMKDL?si=833e856fa28f4530" target="_blank" rel="noopener noreferrer">timeless - the weeknd & playboi carti</a>
               </div>
             </div>
           </div>
