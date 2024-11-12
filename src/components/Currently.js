@@ -17,7 +17,7 @@ export default function Currently() {
               finishing up my cs degree @ <a href="https://uwaterloo.ca/future-students/programs/computer-science" target="_blank" rel="noopener noreferrer">uwaterloo</a>, automating data entry into turbotax @ <a href="https://www.intuit.com" target="_blank" rel="noopener noreferrer">intuit</a>, looking for 2025 new grad roles.
             </p>
             <p>
-              outside of shipping code, you can find me lifting heavy circles, playing teamfight tactics, or cafe hopping in toronto.
+              outside of shipping code, you can find me lifting heavy circles, playing teamfight tactics, or cafe hopping in toronto. 
             </p>
             <div className={styles.currentlyMap}>
               <Map/>
