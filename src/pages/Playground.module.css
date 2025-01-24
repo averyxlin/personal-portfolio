@@ -27,7 +27,7 @@
   }
 
   .playgroundTitle {
-    padding: 8rem 1rem 4rem;
+    padding: 8rem 1.5rem 4rem;
     font-family: 'SF-Pro-Regular';
   }
 
@@ -36,6 +36,7 @@
     grid-template-columns: repeat(3, 1fr); 
     gap: 1rem; 
     align-items: start; 
+    padding: 0 1rem;
   }
 
   .playgroundGrid > * {
