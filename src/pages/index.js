@@ -4,9 +4,10 @@ import Layout from '@theme/Layout';
 import styles from './index.module.css';
 import AboutMe from '../components/AboutMe';
 import Currently from '../components/Currently';
+import Playground from './Playground';
 
 function HomepageHeader() {
-return (
+  return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title heroBanner-title">
@@ -27,6 +28,7 @@ export default function Home() {
       <main>
         <AboutMe />
         <Currently />
+        <Playground />
       </main>
     </Layout>
   );

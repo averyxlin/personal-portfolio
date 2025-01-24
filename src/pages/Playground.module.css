@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'SF-Pro-Light';
+    src: url('../../static/fonts/sf-pro/sf-pro-text-light.woff') format('woff2');
+  }
+
+  .heroBanner {
+    padding: 0 4rem;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    height: 25rem;
+    color: #3D4043;
+    background-color: #f2f3f6;
+  }
+
+  html[data-theme='dark'] .heroBanner {
+    background-color: #000;
+    color: #f2f3f6;
+  }
+
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 4rem 4rem 1rem;
+    width: 100%;
+  }
+
+  .playgroundTitle {
+    padding: 8rem 1rem 3rem;
+    font-family: 'SF-Pro-Regular';
+  }
+
+  .playgroundGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1rem; 
+    align-items: start; 
+  }
+
+  .playgroundGrid > * {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #fff;
+    padding: 2rem;
+  }

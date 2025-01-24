@@ -68,6 +68,7 @@ const config = {
         },
         items: [
           {to: '/resume', label: 'experience', position: 'left'},
+          {to: '/playground', label: 'playground', position: 'left'},
           // {to: '/projects', label: 'projects', position: 'left'},
           // {to: '/blog', label: 'writing', position: 'left'},
           // {
@@ -90,7 +91,11 @@ const config = {
               {
                 label: 'experience',
                 to: '/resume',
-              }
+              },
+              {
+                label: 'playground',
+                to: '/playground',
+              },
               // {
               //   label: 'projects',
               //   to: '/projects',
