@@ -45,3 +45,7 @@
     border: 1px solid #fff;
     padding: 2rem;
   }
+
+  html[data-theme='dark'] .playgroundGrid > * {
+    border: 1px solid #000;
+  }
