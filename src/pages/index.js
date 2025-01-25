@@ -4,7 +4,6 @@ import Layout from '@theme/Layout';
 import styles from './index.module.css';
 import AboutMe from '../components/AboutMe';
 import Currently from '../components/Currently';
-import Playground from './Playground';
 
 function HomepageHeader() {
   return (
@@ -28,7 +27,6 @@ export default function Home() {
       <main>
         <AboutMe />
         <Currently />
-        <Playground />
       </main>
     </Layout>
   );
