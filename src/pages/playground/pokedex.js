@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Layout from '@theme/Layout';
-import styles from './bad-ui.module.css';
+import styles from './playground.pages.module.css';
 import BackButton from '../../components/playground/BackButton/BackButton';
 import PokedexSidebar from '../../components/playground/PokedexSidebar/PokedexSidebar';
 import PokedexModal from '../../components/playground/PokedexModal/PokedexModal';
@@ -78,6 +78,13 @@ export default function Pokedex() {
                   />
                 </div>
               </div>
+            </div>
+            <div className={styles.pokedexFooter}>
+                <p>
+                    <span>
+                        <b>to-do:</b> fuzzy search, infinite scroll, more than gen 1 pokemon lol
+                    </span>
+                </p>
             </div>
           </div>
         </section>

@@ -98,3 +98,9 @@
   box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1);
   border: 1px solid var(--ifm-color-emphasis-200);
 }
+
+.pokedexFooter {
+  padding: 0 2rem;
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
+}
