@@ -1,0 +1,44 @@
+.card {
+  background: var(--ifm-card-background-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  position: relative;
+  z-index: 1;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.cardTitle {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  color: var(--ifm-color-primary);
+  position: relative;
+  z-index: 2;
+}
+
+.cardDescription {
+  margin-bottom: 1rem;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.9rem;
+  position: relative;
+  z-index: 2;
+}
+
+.cardContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  position: relative;
+  z-index: 2;
+} 

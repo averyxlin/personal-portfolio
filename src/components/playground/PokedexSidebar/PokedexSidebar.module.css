@@ -1,0 +1,98 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: var(--ifm-background-surface-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 2px solid var(--ifm-color-emphasis-300);
+  width: 280px;
+  min-width: 280px;
+  flex-shrink: 0;
+}
+
+[data-theme='dark'] .sidebar {
+  border-color: var(--ifm-color-emphasis-200);
+}
+
+.navButton {
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+}
+
+.navButton::before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  position: absolute;
+}
+
+.navButton:first-child::before {
+  border-bottom: 12px solid var(--ifm-color-emphasis-800);
+  top: 0;
+}
+
+.navButton:last-child::before {
+  border-top: 12px solid var(--ifm-color-emphasis-800);
+  bottom: 0;
+}
+
+.navButton:hover:not(:disabled)::before {
+  border-bottom-color: var(--ifm-color-primary);
+  border-top-color: var(--ifm-color-primary);
+}
+
+.navButton:disabled::before {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.boxContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.box {
+  width: 100%;
+  height: 60px;
+  background-color: var(--ifm-background-color);
+  border: 2px solid var(--ifm-color-emphasis-200);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: var(--ifm-color-emphasis-800);
+  padding: 0 1rem;
+  overflow: hidden;
+}
+
+.pokemonName {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.box:hover {
+  border-color: var(--ifm-color-primary);
+  transform: scale(1.02);
+} 
+

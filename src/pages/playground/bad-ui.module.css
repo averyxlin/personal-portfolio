@@ -1,0 +1,100 @@
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5rem 4rem 4rem 1rem;
+  width: 100%;
+}
+
+.backButton {
+  padding-left: 1.5rem;
+}
+
+.playgroundTitle {
+  padding: 8rem 1.5rem 4rem;
+  font-family: 'SF-Pro-Regular';
+  text-align: left;
+  margin-top: -7rem;
+}
+
+.playgroundContent {
+  width: 100%;
+}
+
+.pokedexLayout {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  min-height: 600px;
+}
+
+.modal {
+  flex: 1;
+  background-color: var(--ifm-background-surface-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--ifm-color-emphasis-300);
+  position: relative;
+  overflow: hidden;
+}
+
+[data-theme='dark'] .modal {
+  border-color: var(--ifm-color-emphasis-200);
+}
+
+.modal::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
+  pointer-events: none;
+}
+
+.modalContent {
+  width: 100%;
+  height: 100%;
+  color: var(--ifm-color-emphasis-800);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: var(--ifm-background-color);
+  border-radius: 12px;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.modalContent h2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin: 0;
+  color: var(--ifm-color-primary);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.modalPlaceholder {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 1.2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  background-color: var(--ifm-background-color);
+  border-radius: 12px;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
