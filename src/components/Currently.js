@@ -37,7 +37,7 @@ export default function Currently() {
               </div>
               <div class={styles.middle}></div>
               <div>
-                tattooing, unity + game development, crocheting
+                nail art, unity + game development, crocheting
               </div>
             </div>
             <div className={styles.lineWrapper}>
@@ -46,7 +46,7 @@ export default function Currently() {
               </div>
               <div class={styles.middle}></div>
               <div>
-                bullet journaling, developer tools, cats + weiner dogs
+                pokemon, developer tools, cats
               </div>
             </div>
             <div className={styles.lineWrapper}>
@@ -55,7 +55,7 @@ export default function Currently() {
               </div>
               <div class={styles.middle}></div>
               <div>
-                <FontAwesomeIcon icon={faSpotify} style={{paddingRight: '8px'}}/><a href="https://open.spotify.com/track/6XaJfhwof7qIgbbXO5tIQI?si=4791f1ab0ba8480b" target="_blank" rel="noopener noreferrer">igual que un angel - kali uchis & peso pluma</a>
+                <FontAwesomeIcon icon={faSpotify} style={{paddingRight: '8px'}}/><a href="https://open.spotify.com/track/7sVbKoBdhXtYCEOO6qC1SN?si=6fa521384c0a4f8f" target="_blank" rel="noopener noreferrer">we still don't trust you - future, metro boomin, the weeknd</a>
               </div>
             </div>
           </div>

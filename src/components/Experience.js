@@ -126,9 +126,9 @@ export default function Experience() {
             <div className={`${styles.lineWrapper}`}>
               <h3 className={styles.resumeTitle}>university of waterloo</h3>
               <div class={styles.middle}></div>
-              <div className={styles.date}>sep 2020 - expected apr 2025</div>
+              <div className={styles.date}>sep 2020 - apr 2025</div>
             </div>
-            <p>bcs + human-computer interaction specialization</p>
+            <p>bachelor of computer science</p>
           </div>
         </div>
       </div>

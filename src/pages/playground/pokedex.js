@@ -82,7 +82,7 @@ export default function Pokedex() {
             <div className={styles.pokedexFooter}>
                 <p>
                     <span>
-                        <b>to-do:</b> fuzzy search, infinite scroll, more than gen 1 pokemon lol
+                        WIP. <b>to-do:</b> fuzzy search, infinite scroll, more than gen 1 pokemon lol
                     </span>
                 </p>
             </div>
