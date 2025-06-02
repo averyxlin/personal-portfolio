@@ -27,9 +27,23 @@ export default function PokedexModal({ selectedPokemon, loading, error }) {
 
   if (loading || imageLoading) {
     return (
-      <div className={styles.modalPlaceholder}>
-        <div className={styles.loadingSpinner}></div>
-        <p>Loading Pokemon...</p>
+      <div className={styles.modalContent}>
+        <div className={styles.pokedexScreen}>
+          <div className={`${styles.skeleton} ${styles.skeletonSprite}`} />
+        </div>
+        <div className={styles.pokedexInfo}>
+          <div className={styles.pokedexInfoColumn}>
+            <div className={`${styles.skeleton} ${styles.skeletonText} ${styles.skeletonTextShort}`} />
+            <div className={`${styles.skeleton} ${styles.skeletonText} ${styles.skeletonTextShort}`} />
+            <div className={`${styles.skeleton} ${styles.skeletonText} ${styles.skeletonTextMedium}`} />
+            <div className={`${styles.skeleton} ${styles.skeletonText} ${styles.skeletonTextLong}`} />
+          </div>
+          <div className={styles.pokedexInfoColumn}>
+            <div className={`${styles.skeleton} ${styles.skeletonText} ${styles.skeletonTextLong}`} />
+            <div className={`${styles.skeleton} ${styles.skeletonText} ${styles.skeletonTextLong}`} />
+            <div className={`${styles.skeleton} ${styles.skeletonText} ${styles.skeletonTextLong}`} />
+          </div>
+        </div>
       </div>
     );
   }
@@ -81,8 +95,8 @@ export default function PokedexModal({ selectedPokemon, loading, error }) {
         <div className={styles.pokedexInfoColumn}>
             <p>{selectedPokemon.flavor_text}</p>
             <div className={styles.pokedexInfoRow}>
-            <p><span>Height:</span> {height}m</p>
-            <p><span>Weight:</span> {weight}kg</p>
+                <p><span>Height:</span> {height}m</p>
+                <p><span>Weight:</span> {weight}kg</p>
             </div>
         </div>
       </div>

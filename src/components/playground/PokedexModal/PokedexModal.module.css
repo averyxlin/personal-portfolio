@@ -144,4 +144,58 @@
 .pokedexInfo span {
   font-weight: bold;
   color: var(--ifm-color-primary);
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--ifm-color-emphasis-200) 25%,
+    var(--ifm-color-emphasis-100) 50%,
+    var(--ifm-color-emphasis-200) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 4px;
+}
+
+.skeletonSprite {
+  width: 150px;
+  height: 150px;
+  margin: 25px auto;
+}
+
+.skeletonText {
+  height: 1rem;
+  margin: 0.5rem 0;
+}
+
+.skeletonTextShort {
+  width: 60%;
+}
+
+.skeletonTextMedium {
+  width: 80%;
+}
+
+.skeletonTextLong {
+  width: 100%;
+}
+
+.skeletonRow {
+  display: flex;
+  gap: 1rem;
+  margin: 0.5rem 0;
+}
+
+.skeletonRow .skeletonText {
+  flex: 1;
 } 
