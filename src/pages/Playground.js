@@ -29,6 +29,12 @@ export default function Playground() {
                 description="shoutout to bulbapedia and pokeapi"
                 path="pokedex">
               </Card>
+              <Card
+                title="blue eyes white dragon"
+                description="3js fiber test"
+                path="blue-eyes"
+              >
+              </Card>
               {/* Add more cards here as needed */}
             </CardGrid>
           </div>

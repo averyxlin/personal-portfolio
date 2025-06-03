@@ -104,3 +104,19 @@
   font-size: 0.8rem;
   color: var(--ifm-color-emphasis-600);
 }
+
+.attribution {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 0.7rem;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: system-ui, -apple-system, sans-serif;
+    text-align: right;
+    max-width: 300px;
+    line-height: 1.2;
+}
+
+html[data-theme='dark'] .attribution {
+    color: rgba(255, 255, 255, 0.5);
+}
