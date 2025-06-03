@@ -8,8 +8,8 @@ import HalfSuccessCheckbox from '../components/playground/HalfSuccessCheckbox';
 export default function Playground() {
   return (
     <Layout
-      title="Playground"
-      description="A collection of interactive examples and experiments">
+      title="playground"
+      description="a collection of my thoughts and experiments">
       <main>
         <section className={styles.features}>
           <div className="container">
