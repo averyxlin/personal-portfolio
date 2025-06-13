@@ -46,7 +46,7 @@ export default function Currently() {
               </div>
               <div class={styles.middle}></div>
               <div>
-                pokemon, developer tools, cats
+                pokemon, developer tools, orangutans
               </div>
             </div>
             <div className={styles.lineWrapper}>

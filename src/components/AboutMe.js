@@ -4,7 +4,7 @@ import styles from './AboutMe.module.css';
 import profilePicture from '../../static/img/pfp.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin, faSquareGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faSquareGithub, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export default function AboutMe() {
   return (
@@ -44,6 +44,15 @@ export default function AboutMe() {
               <div class={styles.middle}></div>
               <div>
                 <a href="https://www.linkedin.com/in/averyxlin/" target="_blank" rel="noopener noreferrer">linkedin.com/in/averyxlin</a>
+              </div>
+            </div>
+            <div className={styles.lineWrapper}>
+              <div>
+                <h4><FontAwesomeIcon icon={faXTwitter} /> <span className={styles.hideOnSmallScreens}>x/twitter</span></h4>
+              </div>
+              <div class={styles.middle}></div>
+              <div>
+                <a href="https://x.com/averydotdev" target="_blank" rel="noopener noreferrer">x.com/averydotdev</a>
               </div>
             </div>
             <div className={styles.lineWrapper}>
