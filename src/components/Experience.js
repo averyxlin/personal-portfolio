@@ -7,7 +7,7 @@ import TeranetLogo from '../../static/img/teranet.png';
 import GoogleLogo from '../../static/img/google.png';
 import UWLogo from '../../static/img/uw.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
+import { faPaperPlane, faQuestion } from '@fortawesome/free-solid-svg-icons';
 
 export default function Experience() {
   return (
@@ -16,6 +16,22 @@ export default function Experience() {
         <h1 className={`hero__title ${styles.experienceTitle}`}>
           where i've been
         </h1>
+        {/* cast */}
+        <div className={`row ${styles.resumeItem}`}>
+          <a href="https://www.castinsights.com" target="_blank" rel="noopener noreferrer">
+            <button className={`button ${styles.logoButton} ${styles.castLogoButton}`}>
+              <FontAwesomeIcon icon={faQuestion} />
+            </button>
+          </a>
+          <div className={`${styles.resumeContent}`}>
+            <div className={`${styles.lineWrapper}`}>
+              <h3 className={styles.resumeTitle}>cast insights</h3>
+              <div class={styles.middle}></div>
+              <div className={styles.date}>july 2025 - present</div>
+            </div>
+            <p>more to come :)</p>
+          </div>
+        </div>
         {/* intuit */}
         <div className={`row ${styles.resumeItem}`}>
           <a href="https://www.intuit.com" target="_blank" rel="noopener noreferrer">

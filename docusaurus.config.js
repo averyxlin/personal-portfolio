@@ -111,7 +111,7 @@ const config = {
             items: [
               {
                 label: 'email',
-                href: 'mailto:xinyan.lin@uwaterloo.ca',
+                href: 'mailto:averyxlin@gmail.com',
               },
               {
                 label: 'linkedin',

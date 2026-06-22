@@ -14,10 +14,10 @@ export default function Currently() {
           <div className={`col ${styles.currently}`}>
             <h1>currently</h1>
             <p>
-              finishing up my cs degree @ <a href="https://uwaterloo.ca/future-students/programs/computer-science" target="_blank" rel="noopener noreferrer">uwaterloo</a>, automating data entry into turbotax @ <a href="https://www.intuit.com" target="_blank" rel="noopener noreferrer">intuit</a>, looking for 2025 new grad roles. 
+              based in san francisco as the second engineering hire at <a href="https://castinsights.com" target="_blank" rel="noopener noreferrer">cast insights</a>. i've tinkered with everything from frontend features, to low-latency search over 10M+ hours of transcribed content used by top hedge funds, to a kubernetes audio ingestion pipeline that processes 10k+ hours of audio per hour. 
             </p>
             <p>
-              outside of shipping code, you can find me lifting heavy circles, playing teamfight tactics, or cafe hopping in toronto.
+              outside of work, you can find me collecting smiski figurines, trying cafes and restaurants around the city, or playing teamfight tactics.
             </p>
             <div className={styles.currentlyMap}>
               <Map/>
@@ -28,7 +28,7 @@ export default function Currently() {
               </div>
               <div class={styles.middle}></div>
               <div>
-                toronto, ontario, canada
+                san francisco, california, usa
               </div>
             </div>
             <div className={styles.lineWrapper}>
@@ -37,7 +37,7 @@ export default function Currently() {
               </div>
               <div class={styles.middle}></div>
               <div>
-                nail art, unity + game development, crocheting
+                muay thai, threejs + webgl
               </div>
             </div>
             <div className={styles.lineWrapper}>
@@ -46,7 +46,7 @@ export default function Currently() {
               </div>
               <div class={styles.middle}></div>
               <div>
-                pokemon, developer tools, orangutans
+                pokemon, matcha, kubernetes
               </div>
             </div>
             <div className={styles.lineWrapper}>
@@ -55,7 +55,7 @@ export default function Currently() {
               </div>
               <div class={styles.middle}></div>
               <div>
-                <FontAwesomeIcon icon={faSpotify} style={{paddingRight: '8px'}}/><a href="https://open.spotify.com/track/7sVbKoBdhXtYCEOO6qC1SN?si=6fa521384c0a4f8f" target="_blank" rel="noopener noreferrer">we still don't trust you - future, metro boomin, the weeknd</a>
+                <FontAwesomeIcon icon={faSpotify} style={{paddingRight: '8px'}}/><a href="https://open.spotify.com/track/5oiL72bW9rAeMcgkrQzqQP?si=896d0a71b0d14355" target="_blank" rel="noopener noreferrer">sogni ancora - pierro piccioni</a>
               </div>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './AboutMe.module.css';
-import profilePicture from '../../static/img/pfp.png'
+import profilePicture from '../../static/img/IMG_0052.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faSquareGithub, faXTwitter } from '@fortawesome/free-brands-svg-icons';
@@ -14,11 +14,9 @@ export default function AboutMe() {
           <div className={`col col--7 ${styles.aboutMe}`}>
             <h1>about me</h1>
 
-            <p>i began my software development journey in <span className={styles.aboutMeEmphasis}>frontend web development</span> — i loved seeing the immediate impact of my work on the user experience and how it improved their lives.</p>
+            <p>growing up, i was always building elaborate legos or signing up for math contests - <span className={styles.aboutMeEmphasis}>problem solving and making things were the two things i loved most</span>. software engineering let me do both at once, so that's where i landed.</p>
 
-            <p>however, my interests shifted after working on api's, specifically for internal tools for fellow developers. after engaging with users + hearing how my efforts enhanced their efficiency, my eyes were opened to the <span className={styles.aboutMeEmphasis}>impact of backend development</span> to end users as well.</p>
-
-            <p>today, i've broadened my experiences, and have built react web applications, to golang rest api's, to python + llm-powered chatbots. i'm excited to continue <span className={styles.aboutMeEmphasis}>building tools that make users' lives easier</span> — whether that's helping them save time, space, or effort in their daily lives :)</p>
+            <p>i started in frontend because i loved the short feedback loop - seeing my work show up immediately in front of users. over the course of 6 internships, i've gone from being the only frontend dev at a 3-engineer startup to working on turbotax at intuit, and that range showed me what i actually care about: <span className={styles.aboutMeEmphasis}>moving fast, talking to users, and building things that solve real problems</span>. i'm high agency by default, and i do my best work alongside fun, smart people who challenge and support each other in equal measure. i'm excited to keep building tools that make users' lives easier - whether that's saving them time, space, or effort along the way :)</p>
           </div>
           <div className={`col col--4 ${styles.profilePictureContainer}`}>
             <img src={profilePicture} alt="profile picture" className={styles.profilePicture} />
@@ -27,14 +25,14 @@ export default function AboutMe() {
         <div className="row">
           <div className={`col ${styles.contactMe}`}>
             <h3>connect with me</h3>
-            <p>i love meeting new people — please never hesitate to reach out, whether it's to work on something exciting together or simply grabbing coffee + going on a walk.</p>
+            <p>i love meeting new people - please never hesitate to reach out, whether it's to work on something exciting together or simply grabbing matcha + going on a walk.</p>
             <div className={styles.lineWrapper}>
               <div>
                 <h4><FontAwesomeIcon icon={faEnvelope} /> <span className={styles.hideOnSmallScreens}>email</span></h4>
               </div>
               <div class={styles.middle}></div>
               <div>
-                <a href="mailto:xinyan.lin@uwaterloo.ca" target="_blank" rel="noopener noreferrer">xinyan.lin@uwaterloo.ca</a>
+                <a href="mailto:averyxlin@gmail.com" target="_blank" rel="noopener noreferrer">averyxlin@gmail.com</a>
               </div>
             </div>
             <div className={styles.lineWrapper}>

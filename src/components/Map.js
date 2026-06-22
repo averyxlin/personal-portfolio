@@ -13,7 +13,7 @@ export default function Map() {
         height: '25rem', 
         width: '100wh',
       }} 
-      center={[43.6532, -79.3832]} zoom={13} 
+      center={[37.7899, -122.4194]} zoom={13}
       scrollWheelZoom={true}
     >
       <TileLayer
