@@ -14,7 +14,7 @@ export default function AboutMe() {
           <div className={`col col--7 ${styles.aboutMe}`}>
             <h1>about me</h1>
 
-            <p>growing up, i was always building elaborate legos or signing up for math contests - <span className={styles.aboutMeEmphasis}>problem solving and making things were the two things i loved most</span>. software engineering let me do both at once, so that's where i landed.</p>
+            <p>growing up, i was always drawn to building things and solving problems - from assembling LEGO sets without instructions to working through math olympiad problems, i loved the challenge of <span className={styles.aboutMeEmphasis}>abstract thinking and creating something from nothing</span>. software engineering let me do both at once, so that's where i landed.</p>
 
             <p>i started in frontend because i loved the short feedback loop - seeing my work show up immediately in front of users. over the course of 6 internships, i've gone from being the only frontend dev at a 3-engineer startup to working on turbotax at intuit, and that range showed me what i actually care about: <span className={styles.aboutMeEmphasis}>moving fast, talking to users, and building things that solve real problems</span>. i'm high agency by default, and i do my best work alongside fun, smart people who challenge and support each other in equal measure. i'm excited to keep building tools that make users' lives easier - whether that's saving them time, space, or effort along the way :)</p>
           </div>
