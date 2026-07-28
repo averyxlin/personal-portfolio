@@ -86,25 +86,25 @@
   
   .castLogoButton {
     padding: 0.75rem !important;
-    background-color: rgba(18, 18, 18, 0.92);
+    background-color: #172528;
     color: #fff;
     transition: background-color 0.2s ease-in-out;
   }
 
   .castLogoButton:hover,
   .castLogoButton:focus {
-    background-color: rgba(18, 18, 18, 1);
+    background-color: #172528;
     border: none;
   }
 
   html[data-theme='dark'] .castLogoButton {
-    background-color: rgba(18, 18, 18, 0.92);
+    background-color: #172528;
     transition: background-color 0.2s ease-in-out;
   }
 
   html[data-theme='dark'] .castLogoButton:hover,
   html[data-theme='dark'] .castLogoButton:focus {
-    background-color: rgba(18, 18, 18, 1);
+    background-color: #172528;
     border: none;
   }
 

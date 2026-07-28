@@ -14,7 +14,7 @@ export default function Currently() {
           <div className={`col ${styles.currently}`}>
             <h1>currently</h1>
             <p>
-              based in san francisco as the second engineering hire at <a href="https://castinsights.com" target="_blank" rel="noopener noreferrer">cast insights</a>. i've tinkered with everything from frontend features, to low-latency search over 10M+ hours of transcribed content used by top hedge funds, to a kubernetes audio ingestion pipeline that processes 10k+ hours of audio per hour. 
+              based in san francisco as the second engineering hire at <a href="https://castinsights.com" target="_blank" rel="noopener noreferrer">ephemeral</a>. i've tinkered with everything from frontend features, to low-latency search over 18M+ hours of transcribed content used by top hedge funds, to a kubernetes audio ingestion pipeline that processes 11k+ hours of audio per hour. 
             </p>
             <p>
               outside of work, you can find me collecting smiski figurines, trying cafes and restaurants around the city, or playing teamfight tactics.

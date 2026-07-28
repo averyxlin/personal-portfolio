@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Experience.module.css';
+import EphemeralLogo from '../../static/img/ephemeral.png';
 import IntuitLogo from '../../static/img/intuit.png';
 import FlybitsLogo from '../../static/img/flybits.webp';
 import LetusLogo from '../../static/img/letus.png';
@@ -7,7 +8,7 @@ import TeranetLogo from '../../static/img/teranet.png';
 import GoogleLogo from '../../static/img/google.png';
 import UWLogo from '../../static/img/uw.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPaperPlane, faQuestion } from '@fortawesome/free-solid-svg-icons';
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
 export default function Experience() {
   return (
@@ -20,12 +21,12 @@ export default function Experience() {
         <div className={`row ${styles.resumeItem}`}>
           <a href="https://www.castinsights.com" target="_blank" rel="noopener noreferrer">
             <button className={`button ${styles.logoButton} ${styles.castLogoButton}`}>
-              <FontAwesomeIcon icon={faQuestion} />
+              <img className={`${styles.logoImg}`} src={EphemeralLogo} alt="Ephemeral Logo" />
             </button>
           </a>
           <div className={`${styles.resumeContent}`}>
             <div className={`${styles.lineWrapper}`}>
-              <h3 className={styles.resumeTitle}>cast insights</h3>
+              <h3 className={styles.resumeTitle}>ephemeral</h3>
               <div class={styles.middle}></div>
               <div className={styles.date}>july 2025 - present</div>
             </div>
